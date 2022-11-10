@@ -6,7 +6,7 @@ using namespace std;
 class test
 {
     int a,b,c;
-    public:
+    public: 
     void read_data(int x,int y,int z)
     {
         a=x;

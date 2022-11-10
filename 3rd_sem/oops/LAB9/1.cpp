@@ -1,5 +1,5 @@
 /*1. convert basic to class type.*/
-#include <iostream>
+#include <iostream> 
 using namespace std;
 class DistConv{
 private:
@@ -19,7 +19,7 @@ public:
     }
 };
 const double DistConv::kilometersPerMile = 1.609344;
-int main(void)
+int main()
 {
     DistConv d1 = 25.0;
     cout << "25.0 miles = ";
